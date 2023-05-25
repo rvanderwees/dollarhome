@@ -131,6 +131,7 @@ zmodload zsh/net/tcp
 
 # Custom settings and aliasses
 export GPG_TTY=$(tty)
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 alias -g '...'='../..'
 alias -g '....'='../../..'
 alias -g G=" | grep"
